@@ -1,10 +1,10 @@
-#!/usr/bin/python3
-"""factorize given set of numbers in a file to product of two small numbers"""
+#!/usr/bin/python
+"""factorize a given set of numbers"""
 from sys import argv
 
 
 def factorize(number_to_check):
-    """"find two small numbers that multiply to give a given number"""
+    """"find the multiplication of two numbers"""
     i = 2
 
     if number_to_check < 2:
